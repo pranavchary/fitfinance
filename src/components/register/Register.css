@@ -1,0 +1,61 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.register > div {
+  margin-bottom: 15px;
+}
+.register-info {
+  display: flex;
+  height: 50%;
+  padding: 25px;
+  background-color: #FAFAFA;
+  border-radius: 0.5rem;
+  border: 2px solid #2E2E2E;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.register-info > div {
+  margin-bottom: 25px;
+}
+
+.username-container {
+  position: relative;
+}
+
+.username-tip {
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  color: #009432;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.register-info label {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.register-buttons {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.validation-error {
+  min-height: 20px;
+  color: #C0392B;
+  font-weight: 600;
+}
+
+.register-buttons > button {
+  margin-left: 40px;
+  margin-right: 40px;
+}

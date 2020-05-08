@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+  position: relative;
+  height: 100%;
+}
+
+.app-logo {
+  height: 100%;
+  width: auto;
+}
+
+.App > div:not(#header) {
+  height: 90%;
+}
+
+/* Hides the arrows on number inputs */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hides the arrows on number inputs (Firefox) */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+label {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* Common modal component styles */
+.modal-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+}
+
+.modal-sm,
+.modal-md {
+  position: absolute;
+  top: 30%;
+  bottom: 25%;
+  left: 30%;
+  right: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FAFAFA;
+  border-radius: 0.5rem;
+  box-shadow: 1px 2px 10px 5px #2E2E2E;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.modal-md {
+  bottom: 15%;
+  left: 25%;
+  right: 25%;
+}
+
+.modal-sm > .modal-info {
+  font-size: 90%;
+}
+
+.modal-sm > .modal-info > .modal-input-container {
+  width: 90%;
+}
+
+.modal-md > .modal-info > .modal-input-container {
+  width: 75%;
+}
+
+.modal-sm > div:not(.modal-error),
+.modal-md > div:not(.modal-error) {
+  margin-bottom: 0 !important;
+}
+
+.modal-title {
+  width: 100%;
+}
+
+.modal-title > h1,
+.modal-title > h2,
+.modal-title > h3,
+.modal-title > h4,
+.modal-title > h5,
+.modal-title > h6 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.modal-info {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-info > .modal-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.modal-info label {
+  min-width: 40px;
+}
+
+.modal-info > .modal-input-container {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.modal-info > div {
+  margin-bottom: 10px;
+}
+
+.modal-error {
+  min-height: 20px;
+  color: #C0392B;
+  font-weight: 600;
+  margin-bottom: 15px !important;
+}
+
+.modal-buttons {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

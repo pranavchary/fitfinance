@@ -1,0 +1,40 @@
+.txn-smallcard {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  font-size: 70%;
+  padding: 5px;
+  margin: 5px 0 !important;
+  background-color: rgba(241, 241, 241, 0.25);
+  border: 2px solid #E2E2E2;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.txn-smallcard:last-child {
+  margin-bottom: 20px !important;
+}
+
+.txn-smallcard-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0!important;
+}
+
+.txn-smallcard-row > div {
+  margin: 0 !important;
+}
+
+.smallcard-title-row {
+  margin-bottom: 5px !important;
+}
+
+.smallcard-title {
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.txn-smallcard-date {
+  font-size: 60%;
+}

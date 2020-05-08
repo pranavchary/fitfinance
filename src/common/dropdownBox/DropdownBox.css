@@ -1,0 +1,36 @@
+.ddbox {
+  overflow-x: hidden;
+}
+
+.ddbox-header {
+  height: 50px;
+  margin-left: -1%;
+  display: flex;
+  align-items: center;
+  width: 102%;
+  cursor: pointer;
+}
+
+.ddbox-icon {
+  height: auto;
+  width: 25px;
+  padding: 0 10px 0 20px;
+}
+
+.ddbox-title {
+  font-weight: bolder;
+  font-size: 120%;
+}
+
+.ddbox-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: scroll;
+}
+
+.ddbox-item {
+  padding-left: 10px;
+  margin: 5px;
+}

@@ -1,0 +1,23 @@
+.addincome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addincome > div {
+  margin: 5px 0;
+}
+
+.addincome-error {
+  min-height: 20px;
+  color: #C0392B;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.addincome-buttons {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

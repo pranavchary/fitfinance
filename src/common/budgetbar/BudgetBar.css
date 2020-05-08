@@ -1,0 +1,38 @@
+.budgetbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.budgetbar > label {
+  max-width: 25%;
+  height: 100%;
+  font-size: 70%;
+  font-weight: 600;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 15px;
+}
+
+.budget-container {
+  position: relative;
+  overflow-x: hidden;
+  margin: 0 !important;
+}
+
+.budget-progress {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  border-radius: inherit;
+  margin: 0 !important;
+}
+
+.budget-value {
+  position: absolute;
+  bottom: 15%;
+  font-size: 70%;
+  right: 25%;
+  margin: 0 !important;
+}
